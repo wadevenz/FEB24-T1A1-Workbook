@@ -223,17 +223,19 @@ https://remotebase.com/blog/chat-gpt-for-software-development-and-its-ethical-co
 
 ### **_Question 11: Explain multiple skills from each of the categories below, and how they’re useful to a software development workplace. <br/><br/> - soft skills <br/> - hard skills_**
 
-- Soft Skills
-  - Communication
-    Communication is vital in a team environment as the ability to receive instruction and data and relay clear and understandable information is fundamental to collaboration.
+- **Soft Skills**  
+<br/>
+**Communication**  
+    Communication is vital in a team environment as the ability to receive instruction and data and relay clear and understandable information is fundamental to any collaboration. The software development ecosystem is so relient on communication version control software such as GitHub have become vital to a project. While the skill of communication can act as an umbrella for many other skills such as active listening, effective presentation and feedback, the ability to understand tasks and effectively and efficiently instruct and advise is paramount.
+    <br/>  
+**Problem Solving**  
+    Software Development boils down to that of being presented with or identifying a problem and finding an effective solution via hard skills such as coding. Problem solving is the ability to analyse a problem comprehensively and map out a path, sometimes multiple paths to overcome and complete the task. 
+<br/>
+**Time Management**
+    
 
-
-  - Problem Solving
-  It is no secret that one of the fundamental soft skills in software development is problem solving. Developing software is the task of being presented with a problem and coming up with a solution
-
-  - Time Management
-
-  - Adabtability
+<br/>
+**Adabtability**
 
 - Hard Skills
   - Programming languages
