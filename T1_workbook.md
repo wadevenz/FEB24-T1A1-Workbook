@@ -174,32 +174,32 @@ Within the following events or opportunitues is a brief description and expected
 
 ### **_Question 9: Explain the uses of language-learning model technologies (such as ChatGPT) on written and technical works, such as reports and software projects._**
 
-    Language-learning models (LLM) or Artificial Intelligence (AI) responsible for interpreting langauage (Gotay, 2024), in many respects,  is relatively new and still in its infancy. It would seem that while creativity and ingenuity are requried for software engineering and development, AI, at least for now will remain at the whims of the human mind. However, AI's uses in collating vast amounts of data, machine learning and pattern recognition give it the ability to perform complex or large scale routines very quickly and that can be of immense benefit to the worker (Barenkamp, Rebstadt & Thomas, 2020). Fig. 3 below shows the uses and applications of AI and language learning on the software development process. 
+    Language-learning models (LLM) or Artificial Intelligence (AI) responsible for interpreting langauage (Gotay, 2024), in many respects,  is relatively new and still in its infancy. It would seem that while creativity and ingenuity are requried for software engineering and development, AI, at least for now will remain at the whims of the human mind. However, AI's uses in collating vast amounts of data, machine learning, and pattern recognition, give it the ability to perform complex or large scale routines very quickly, and that can be of immense benefit to the worker (Barenkamp, Rebstadt & Thomas, 2020). Fig. 3 below shows the uses and applications of AI and language learning on the software development process. 
 
-    In the software development process specifically, AI can offer compelling support to the programmer. Tasks like generating simple code, utilising huge computing power to calculate problems and ascertain mathematical solutions, and utilising predcitive models to analyse and find code bugs will potentially one day be replaced by AI, optimising human capability and capacity (intellectSoft, 2023).
+    In the software development process specifically, AI can offer compelling support to the programmer. Tasks like generating simple code, utilising huge computing power to calculate problems and ascertain mathematical solutions, and utilising predcitive models to analyse and find bugs or errors, will potentially one day be replaced by AI, optimising human capability and capacity (intellectSoft, 2023).
 
-   No doubt AI is the future of software development (Barenkamp, Rebstadt & Thomas, 2020), and those that leave it behind may be left behind.  Yet while the use of machine learning and AI is interesting, AI is not without its drawbacks. It currently relies on human creativity and supervision. It also is not error proof, which can and has led to security and ethical issues which will be discussed below.
+    No doubt AI is the future of software development (Barenkamp, Rebstadt & Thomas, 2020), and those that leave it behind may be left behind.  Yet while the use of machine learning and AI is interesting, AI is not without its drawbacks. It currently relies on human creativity and supervision. It also is not error proof, which can and has led to security and ethical issues which will be discussed below.
 
 ![AI Application](AI_application.png)
 Fig. 3 (Barenkamp, Rebstadt & Thomas, 2020)
 
 ### **_Question 10: Explain the legal and ethical impacts of the usage of language-learning model technologies (such as ChatGPT) in written and technical works, such as reports and software projects._**
 
-    AI has infiltrated the gobal population, creating vast uses and vast accountability and liability questions (Ovington, 2023),(Rodrigues, 2022). There are growing ethical concerns over its utilisation in a wide range of scenarios, which have led to call for continued reasearch and analysis to its legal and ethical ramifications on a global scale in all fields from academia to to tech (Ankita Guleria, et al. 2023).
+    AI has infiltrated the gobal population, creating vast uses alongside vast accountability and liability questions (Ovington, 2023),(Rodrigues, 2022). There are growing ethical concerns over its utilisation in a wide range of scenarios, which have led to call for continued reasearch and analysis to its legal and ethical ramifications on a global scale in all fields from academia to to tech (Ankita Guleria, et al. 2023).
 
     Some of the most notable legal and ethical problems for AI are: cyber security or vulnerabilty to data leaks (Ovington, 2023), Intellectual Property rights, lack of transparency (Rodrigues, 2022) and technical limitations (Khurram, 2023). Potentially even more concerning are personal human factors and concerns such as discrimination and bias (Rodrigues, 2022) that can evidently lead to responses from AI causing personal hurt (Khurram, 2023).
 
-    In the case for cyber vulnerabilites and data breaches, the large databases that AI banks and build can be fed sensitive information, even accidentally, which is then embedded into its model and prone to being misused or accessed. This obviously presents serious concerns and risks for conglomerates looking to protect information (Ovington, 2023)
+    In the case for cyber vulnerabilites and data breaches, the large databases that AI utilises can be fed sensitive information, even accidentally, which is then embedded into its model and prone to being misused or accessed. This obviously presents serious concerns and risks for conglomerates looking to protect information (Ovington, 2023)
 
     Intellectual Property rights also become a grey area when considering difficulties arising from unknown inputs and sources (Olvington, 2023). AI also raises questions about who is in charge of machine learning and information and data that is produced from AI (Rodrigues, 2022).
 
-   Next, it has been noted (both within academia and reports) that AI is not consistent with accurate information which can have significant impacts considering the reach of AI (Ankita Guleria, Kewal Krisha, Vishal Sharma, Tanuj Kanchan, 2023). This can also lead to transparency issues around calculations, decisions and the way data is accessed and distributed (Rodrigues, 2022). 
+    Next, it has been noted (both within academia and reports) that AI is not consistent with accurate information which can have significant impacts considering the reach of AI (Ankita Guleria, Kewal Krisha, Vishal Sharma, Tanuj Kanchan, 2023). This can also lead to transparency issues around calculations, decisions and the way data is accessed and distributed (Rodrigues, 2022). 
 
-    AI is reliant on data models and stores, which are then processed into automated outputs. This can lead to unequal treatment of peoples and groups that cause harmful discrimination, all without the current accountablity for damage (Rodrigues, 2022)
+    AI is reliant on data models and stores, which are then processed into automated outputs. This can lead to unequal treatment of peoples and groups that cause harmful discrimination, all without the current accountablity for damage (Rodrigues, 2022).
 
     Also lastly, AI takes a substantial amount of computing power and therefore resources, so while a giant, is not without its technical limitations (Khurram, 2023). 
 
-    As mentioned previously, this technology has reached all over the world and it has lawmakers and governments attempting to create effective solutions (Rodrigues, 2022). However, as displayed the limitations and legal implications and risks of AI are significant and it is imperative that these issues are resolved faster than they occur. 
+    As mentioned previously, this technology has reached all over the world and it has lawmakers and governments attempting to create effective solutions (Rodrigues, 2022). However, as discussed, the limitations and legal implications and risks of AI are significant and it is imperative that these issues are resolved faster than they occur. 
 
 ### **_Question 11: Explain multiple skills from each of the categories below, and how they’re useful to a software development workplace. <br/><br/> - soft skills <br/> - hard skills_**
 
@@ -219,7 +219,7 @@ Fig. 3 (Barenkamp, Rebstadt & Thomas, 2020)
 
 ##### Adabtability and Patience
 
-    When changes arise in projects or new problems occur, alongside with the other skills listed previously, the skill of being flexible and malleable to a task can be neccessary. As discussed, plans are vital, however sometimes variables occur which require new solutions and approaches. I would also like to include the idea of patience. While possibly a skill of its own, patience can be incorporated to an adaptable mindset. Sometimes things take time, and how you adapt and manage your mindset, through patience and adaptability, may determing success. 
+    When changes arise in projects or new problems occur, alongside with the other skills listed previously, the skill of being flexible and malleable to a task can be neccessary. As discussed, plans are vital, however sometimes variables occur which require new solutions and approaches. I would also like to include the idea of patience. While possibly a skill of its own, patience can be incorporated to an adaptable mindset. Sometimes things take time, and how you adapt and manage your mindset, through patience and adaptability, may determine success. 
     (University  of Denver)
 
 #### Hard Skills
@@ -230,7 +230,7 @@ Fig. 3 (Barenkamp, Rebstadt & Thomas, 2020)
 
 ##### Databases
 
-    As data is the core commodity of the IT professional, it should be of no surporse that understanding where and how it can be accessed is fundamental. Long lasting languages such as SQL (Structured Query Language) is the method that programmers and developers utilise to interact with databses and this has become a skill that is expected for the field. (LinkedIn, 2024)
+    As data is the core commodity of the IT professional, it should be of no surporse that understanding where and how it can be accessed is fundamental. Old but effective languages such as SQL (Structured Query Language) is the method that programmers and developers utilise to interact with databses and this has become a skill that is expected for the field. (LinkedIn, 2024)
 
 ##### Cloud and cloud security
 
@@ -238,7 +238,7 @@ Fig. 3 (Barenkamp, Rebstadt & Thomas, 2020)
 
 #### Web Development
 
-    Another crucial skill for software developers is web development. Being comfortable in the environment of web design and production with tools such as HTML, CSS, Javascript and libraries is only becoming more useful as the internet grows and expands (LinkedIn, 2024). And while a software developer might not always work in the landscape of web development, it is one of those fundamental basic skills that developers should have in the toolkit as it enables a better and more comprehensive understanding of how projects can be utilised and aids in rounding out a fully qualified software developer. (University of Denver)
+    Another crucial skill for software developers is web development. Being comfortable in the environment of web design and production with tools such as HTML, CSS, Javascript and associated libraries, is only becoming more useful as the internet grows and expands (LinkedIn, 2024). And while a software developer might not always work in the landscape of web development, it is one of those fundamental basic skills that developers should have in the toolkit as it enables a better and more comprehensive understanding of how projects can be utilised and aids in rounding out a fully qualified software developer. (University of Denver)
 
 ### **_Question 12: Explain multiple roles or job positions that would be found in a medium-sized software development company._**
 
@@ -252,11 +252,11 @@ Fig. 3 (Barenkamp, Rebstadt & Thomas, 2020)
 
 #### Software Architect
 
-    A software architect is responsible for understanding client needs and providing a creative solution. A software architect utilises research and planning to identify current and future problems and how to construct a successful product. (Motiso, 2023)
+    A software architect is responsible for understanding client needs and providing a creative solution. A software architect utilises research and planning to identify current and future problems and how to design and construct a successful product. (Motiso, 2023)
 
 #### Software Developer
 
-    A software developer is a veratile role utilising a number of different skills. From design, implementing code through programming languges and testing and debugging, software developers are responsible for creating the deliverable at the source. (Sartore, 2024)
+    A software developer is a versatile role utilising a number of different skills. From design, implementing code through programming languages and testing/ debugging, software developers are responsible for creating the deliverable at the source. (Sartore, 2024)
 
 #### DevOps engineer
 
@@ -350,4 +350,6 @@ Sartore, M; Kenebrew, D 2024, Software eveloper Career Overview, viewed April 20
 
 Staff, Coursera 2024, What Does a DevOps Engineer Do? A Career Guide, viewwed April 2024, [https://www.coursera.org/articles/devops-engineer]
 
-Wade Venz, 15494
+<br/>
+
+Submitted by *Wade Venz*, **15494**
