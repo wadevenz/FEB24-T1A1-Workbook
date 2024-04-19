@@ -46,7 +46,13 @@ Fig. 2 (Cloudfare, 2024)
 
 #### Web Browsers
 
-        A Web browser is simply software that enables a user to interact with websites on the internet. There has been numerous different web browsers since the genesis of the internet, however there are a few common popular ones currently being used including Google Chrome, Safari and Mozilla (Rouse, 2023). A user can navigate to websites via URLs or Uniform Resource Locators. URLs are basially addresses that enable users to navigate all over the internet to specific websites or 'resources'.
+        A Web browser is simply software that enables a user to interact with websites on the internet. A user can navigate to websites via URLs or Uniform Resource Locators (Rouse, 2023). Navigating to these resources by utilising a url is called a request. Another important aspect of web browsers is how smooth the transition from reading and executing code from the programmed language (Such as HTML, CSS & JavaScript) and generating the UI or the display for user engagement (Frontend Dev, 2020). This process is called 'rendering', and as most browsers will run by focusing on a single process at a time, this is key knowledge for a devlop (Mozilla, 2024). Finally another perk of web browsers are developer tools or dev tools which enable users to engage with a website to write and test code, also find bugs (Mozilla, 2024).
+
+        https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work
+
+        https://qarea.com/blog/webpage-rendering-how-it-works-tips-on-optimization#:~:text=What%20does%20webpage%20rendering%20mean,when%20clicking%20on%20a%20link.
+
+https://developer.mozilla.org/en-US/docs/Glossary/Developer_Tools
 
 ### **_Question 4: Describe the features of interpreters and compilers and how they are different._**
 
@@ -297,6 +303,12 @@ Khan Academy, Transmission Control Protocol (TCP), viewed April 2024, [https://w
 Vocell, J 2022, A Beginner's Guide to SSL: What It is & Why It Makes Your Website More Secure, viewed April 2024, [https://blog.hubspot.com/marketing/what-is-ssl]
 
 3 Rouse, M 2023, Web Browser, viewed April 2024, [https://www.techopedia.com/definition/288/web-browser]
+
+Mozilla 2024, mdn web docs, Populating the page: how browsers work, viewed April 2024, [https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work]
+
+Frontend Dev 2022, Webpage Rendering: How It Works + Tips on Optimization, viewed April 2024, [https://qarea.com/blog/webpage-rendering-how-it-works-tips-on-optimization#:~:text=What%20does%20webpage%20rendering%20mean,when%20clicking%20on%20a%20link.]
+
+Mozilla 2024, mdn web docs, Developer tools, viewed April 2024, [https://developer.mozilla.org/en-US/docs/Glossary/Developer_Tools]
 
 #### Question 4
 
