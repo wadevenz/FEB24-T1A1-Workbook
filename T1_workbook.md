@@ -4,9 +4,8 @@
 
 ### _**Question 1: Identify and explain common and important components and concepts of web development markup languages**_
 
-    When considering markup languages for web development, one of the most common markup languages is HTML or 'Hypertext Markup Language'. Basically, HTML enables data to be seperated into elements to make it easier to structure a webpage. These elements form the building blocks to be styled and designed to create an engaging experience for the user.
-    
-    There are other languages such as XML (eXtensible Markup language) or Markdown, however HTML appears to be the main markup language in web development (Lenovo, 2024). Components and elements are annotated by 'tags' which help organise and collate data, and assist in its styling as the structure and tags are easily referenced and understood (Britannica, 2024). Some example components or tags in HTML include, header, body, section, main or footer in which appropriate input can be organised.
+    When considering markup languages for web development, the most common markup language is HTML or 'Hypertext Markup Language'. HTML enables data to be seperated into elements to make it easier to structure a webpage. These elements form the building blocks to be styled in order to create an engaging experience for the user.
+    There are other languages such as XML (eXtensible Markup language) or Markdown, however HTML is the main markup language in web development (Lenovo, 2024). Components and elements are annotated by 'tags' which help organise and collate data, and assist in its styling as the structure and tags are easily referenced and understood (Britannica, 2024). Some example components or tags in HTML include, header, body, section, main or footer in which appropriate input can be organised.
 
 ### _**Question 2: Define the features of the following technologies that are essential in terms of the development of the internet:**_ <br/><br/> - **_packets_** <br/> - **_IP addresses (IPv4 and IPv6)_** <br/> - **_routers and routing_** <br/> - **_domains and DNS_** <br/> <br/>**_Explain how each technology has contributed to the development of the internet._**
 
@@ -67,8 +66,8 @@ Fig. 2 (Cloudfare, 2024)
 
 #### Javascript
 
-    As of last year, Javascript was the most popular programming language (Logan, 2023). Javascript historically has been known as an interpreted language that over time developed methods to operate with the benefits of compilers. JIT or Just in Time compilation, which essentially converts source code into machine code at point of execution, will only convert that code necessary for function. This reduces the load and increases speed and efficiency. (FreeCodeCamp, 2020). Javascripts popularity can also be attributed to its wide versatilty and access to numerous libraries and environments such as React and Angular. These create widespread platform accessibilty and use, both front and back end (Neville, 2023). 
-    Although Javascript does have sercurity protocols and redundancies built-in, especially into the compatible frameworks, the client side nature of Javascript makes it vulnerable to implanted malicious code, and if not used properly a user can be exposed to leaks of sensitive data. Also it is necessary to run multiple tests in different environments, as Javascript does not always run consistently across all browsers (Neville, 2023). Also compared to compiled languages, Javascript can lower on speed and also debugging efficiency as the tools used are not advanced as some other languages. Overall however Javascript is a powerful high level language that is widely used and has enabled a vast majority of browsers and apps that are used today (Neville, 2023).
+    As of last year, Javascript was the most popular programming language (Logan, 2023). Javascript historically has been known as an interpreted language that over time developed methods to operate with the benefits of compilers. JIT or Just in Time compilation, which essentially converts source code into machine code at point of execution, will only convert that code necessary for function. This reduces the load and increases speed and efficiency. (FreeCodeCamp, 2020). Javascript's popularity can also be attributed to its wide versatilty and access to numerous libraries and environments such as React and Angular. These create widespread platform accessibilty and use, both front and back end (Neville, 2023). 
+    Although Javascript does have sercurity protocols and redundancies built in, especially into the compatible frameworks, the client side nature of Javascript makes it vulnerable to implanted malicious code, and if not used properly a user can be exposed to leaks of sensitive data. Also it is necessary to run multiple tests in different environments, as Javascript does not always run consistently across all browsers (Neville, 2023). Also compared to compiled languages, Javascript can lower on speed and also debugging efficiency as the tools used are not advanced as some other languages. Overall however Javascript is a powerful high level language that is widely used and has enabled a vast majority of browsers and apps that are used today (Neville, 2023).
 
 #### Python
 
@@ -148,12 +147,12 @@ Once I decided to stop coding, and take some time to plan, I started to feel a l
 It's well known that good planning prevents poor outcomes, and this has certainly been the case for me!
 
 I have a lot of learnings from this scenario. Next time I have a similar project, I'm going to:
-1.Get clear on my goals for the website.
-2.Develop a plan that will achieve these goals
-3.Determine the layout, user experience and functionality needed
-4.Create a wireframe that demonstrates how the site will look, with notes that explain the functionality
-5.Once I'm happy, THEN I'll start coding!
-6.Be generous with commenting and pseudocode to help visually represent ongoing thought processes and desired outcomes.
+1. Get clear on my goals for the website.
+2. Develop a plan that will achieve these goals
+3. Determine the layout, user experience and functionality needed
+4. Create a wireframe that demonstrates how the site will look, with notes that explain the functionality
+5. Once I'm happy, THEN I'll start coding!
+6. Be generous with commenting and pseudocode to help visually represent ongoing thought processes and desired outcomes.
 
 Spending time on complete planning, and having a comprehensive knowldege of expectations and processes to achieve will not only improve time managment and efficiency but also prevent anxiety and a feeling of being overwhelmed.
 
@@ -175,30 +174,32 @@ Within the following events or opportunitues is a brief description and expected
 
 ### **_Question 9: Explain the uses of language-learning model technologies (such as ChatGPT) on written and technical works, such as reports and software projects._**
 
-    Language-learning models (LLM) or Artificial Intelligence (AI) responsible for interpreting langauage (Gotay, 2024), in many respects,  is relatively new and still in its infancy. It would seem that while creativity and ingenuity are requried for software engineering and development, AI, at least for now will remain at the whims of the human mind. However, AI's uses in collating vast amounts of data, machine learning and pattern recognition give it the ability to perform complex or large scale routines very quickly and that can be of immense benefit to the worker (Barenkamp, Rebstadt & Thomas, 2020). Fig. 3 below shows the uses and applications of AI and language learning on the software development process. Specifically in the software development process, tasks such as generating simple code, utilising huge computing power to calculate problems and ascertain mathematical solutions and utilising predcitive models to analyse and find code bugs and errors make it a compelling support to the programmer, and potentially one day replacing many tasks that creat a push to optimise human capability and capacity (intellectSoft, 2023).
+    Language-learning models (LLM) or Artificial Intelligence (AI) responsible for interpreting langauage (Gotay, 2024), in many respects,  is relatively new and still in its infancy. It would seem that while creativity and ingenuity are requried for software engineering and development, AI, at least for now will remain at the whims of the human mind. However, AI's uses in collating vast amounts of data, machine learning and pattern recognition give it the ability to perform complex or large scale routines very quickly and that can be of immense benefit to the worker (Barenkamp, Rebstadt & Thomas, 2020). Fig. 3 below shows the uses and applications of AI and language learning on the software development process. 
 
-    Yet while the use of machine learning and AI to automate tasks from data colletction and coding, to compiling and integration is interesting, AI is not without its drawbacks. No doubt AI is the future of software development (Barenkamp, Rebstadt & Thomas, 2020), and those that leave it behind may be left behind, however it currently relies on human creativity and supervision. It also is not error proof, which can and has led to security and ethical issues which will be discussed below.
+    In the software development process specifically, AI can offer compelling support to the programmer. Tasks like generating simple code, utilising huge computing power to calculate problems and ascertain mathematical solutions, and utilising predcitive models to analyse and find code bugs will potentially one day be replaced by AI, optimising human capability and capacity (intellectSoft, 2023).
+
+   No doubt AI is the future of software development (Barenkamp, Rebstadt & Thomas, 2020), and those that leave it behind may be left behind.  Yet while the use of machine learning and AI is interesting, AI is not without its drawbacks. It currently relies on human creativity and supervision. It also is not error proof, which can and has led to security and ethical issues which will be discussed below.
 
 ![AI Application](AI_application.png)
 Fig. 3 (Barenkamp, Rebstadt & Thomas, 2020)
 
 ### **_Question 10: Explain the legal and ethical impacts of the usage of language-learning model technologies (such as ChatGPT) in written and technical works, such as reports and software projects._**
 
-    AI has infiltrated the gobal population, creating vast uses and vast accountability and liability (Olvington, 2023),(Rodrigues, 2022). There are growing ethical concerns over its utilisation in a wide range of scenarios, which have led to call for continued reasearch and analysis to its legal and ethical ramifications on a global scale in all fields from academia to to tech (Ankita Guleria, et al. 2023).
+    AI has infiltrated the gobal population, creating vast uses and vast accountability and liability questions (Ovington, 2023),(Rodrigues, 2022). There are growing ethical concerns over its utilisation in a wide range of scenarios, which have led to call for continued reasearch and analysis to its legal and ethical ramifications on a global scale in all fields from academia to to tech (Ankita Guleria, et al. 2023).
 
-    Some of the most notable legal and ethical problems for AI are; cyber security or vulnerabilty to data leaks (Olvington, 2023), Intellectual Property rights, lack of transparency (Rodrigues, 2022) and technical limitations (Khurram, 2023). Potentially even more concerning are personal human factors and concerns such as; discrimination and bias (Rodrigues, 2022), that can evidently lead to responses from AI causing personal hurt (Khurram, 2023).
+    Some of the most notable legal and ethical problems for AI are: cyber security or vulnerabilty to data leaks (Ovington, 2023), Intellectual Property rights, lack of transparency (Rodrigues, 2022) and technical limitations (Khurram, 2023). Potentially even more concerning are personal human factors and concerns such as discrimination and bias (Rodrigues, 2022) that can evidently lead to responses from AI causing personal hurt (Khurram, 2023).
 
-    In the case for cyber vulnerabilites and data breaches, the large databases that AI banks and build can be fed sensitive information, even accidentally, which is then embedded into its model and prone to being misused or accessed. This obviously presents serious concerns and risks for conglomerates looking to protect information (Olvington, 2023)
+    In the case for cyber vulnerabilites and data breaches, the large databases that AI banks and build can be fed sensitive information, even accidentally, which is then embedded into its model and prone to being misused or accessed. This obviously presents serious concerns and risks for conglomerates looking to protect information (Ovington, 2023)
 
-    Intellectual Property rights also become a grey area when considering difficulties arising from unknown inpits and sources (Olvington, 2023). Also AI can beg the question of who is in charge of machine learning and information and data that is produced from AI (Rodrigues, 2022).
+    Intellectual Property rights also become a grey area when considering difficulties arising from unknown inputs and sources (Olvington, 2023). AI also raises questions about who is in charge of machine learning and information and data that is produced from AI (Rodrigues, 2022).
 
-    Also it has been seen in academia and reports that AI is not consistent with accurate information which can have significant impacts considering the reach of AI (Ankita Guleria, Kewal Krisha, Vishal Sharma, Tanuj Kanchan, 2023). This can also lead to an issue of transparency of processes on how calculations, decisions and data was accessed and distributed (Rodrigues, 2022). 
+   Next, it has been noted (both within academia and reports) that AI is not consistent with accurate information which can have significant impacts considering the reach of AI (Ankita Guleria, Kewal Krisha, Vishal Sharma, Tanuj Kanchan, 2023). This can also lead to transparency issues around calculations, decisions and the way data is accessed and distributed (Rodrigues, 2022). 
 
-    AI is reliant on data models and stores that then processes into automated outputs. This can lead to unequal treatment of peoples and groups that cause harmful discrimination, all without the current accountablity for damage (Rodrigues, 2022)
+    AI is reliant on data models and stores, which are then processed into automated outputs. This can lead to unequal treatment of peoples and groups that cause harmful discrimination, all without the current accountablity for damage (Rodrigues, 2022)
 
-    Also lastly, AI takes a substantial amount of computing power and therefore resources, so while a giant, is not wihtout its technical limitations (Khurram, 2023). 
+    Also lastly, AI takes a substantial amount of computing power and therefore resources, so while a giant, is not without its technical limitations (Khurram, 2023). 
 
-    As mentioned previously, this technoogy has reached all over the world and it has lawmakers and governments attempting to create effective solutions (Rodrigues, 2022). However, as displayed the limitations and legal implications and risks of AI are significant and it is imperative that these issues are resolved faster than they occur. 
+    As mentioned previously, this technology has reached all over the world and it has lawmakers and governments attempting to create effective solutions (Rodrigues, 2022). However, as displayed the limitations and legal implications and risks of AI are significant and it is imperative that these issues are resolved faster than they occur. 
 
 ### **_Question 11: Explain multiple skills from each of the categories below, and how they’re useful to a software development workplace. <br/><br/> - soft skills <br/> - hard skills_**
 
@@ -206,19 +207,19 @@ Fig. 3 (Barenkamp, Rebstadt & Thomas, 2020)
 
 ##### Communication
 
-    Communication is vital in a team environment as the ability to receive instruction and data and relay clear and understandable information back is fundamental to any collaboration. The software development ecosystem is so relient on communication that version control software such as GitHub have become vital to a project. While the skill of communication can act as an umbrella for many other skills such as active listening, effective presentation and feedback, the ability to understand tasks and effectively and efficiently instruct and advise is paramount.
+    Communication is vital in a team environment as the ability to receive and understand instruction and data and clearly relay information back is fundamental to any collaboration. The software development ecosystem is so relient on communication that version control software such as GitHub has become vital to a project. While the skill of communication can act as an umbrella for many other skills such as active listening, effective presentation and feedback, the ability to understand tasks and effectively and efficiently instruct and advise is paramount.
 
 ##### Problem Solving
 
-    Software development is basically, solving problems. By taking advantage of critical thinking, problem solving is the ability to analyse a problem comprehensively research and map out a path, sometimes multiple paths to overcome and complete the task.  This will not only assist in completing the tasks assigned, but also when encountering errors or bugs that need to be worked through to find effective solutions. 
+    Software development is, at its core, all about solving problems. By taking advantage of critical thinking, problem solving is the ability to comprehensively analyse a problem, before researching and mapping out a path (or multiple paths) forward that will efficiently complete the task.  Having problem solving skills not only assists in completing tasks and projects, but comes in handy when encountering errors or bugs that need to be worked through to find effective solutions. 
 
 ##### Time Management
 
-    In professional software development, clients and team collaboration is scheduled and functions on deadlines. The ability to compartmentalise a task into smaller manageable components, and creaete a clear and achievable plan is crucial in the industry.
+    In professional software development, clients and team collaboration is scheduled and functions on deadlines. The ability to compartmentalise a task into smaller manageable components, create a clear and achievable plan and then deliver on deadline is crucial in the industry.
 
 ##### Adabtability and Patience
 
-    When changes arise in projects or new problems occur, alongside with the other skills listed previously, the skill of being flexible and malleable to a task can be neccessary. As discussed, plans are vital, however sometimes variables occur which require new solutions and approaches which is not possible with a rigid and unadaptable mindset. I would also like to include the idea of patience, as while possibly a skill of its own, can be incorporated to an adaptable mindset. Sometimes things take time, and how you adapt and manage that through patience and adaptability may determing success. 
+    When changes arise in projects or new problems occur, alongside with the other skills listed previously, the skill of being flexible and malleable to a task can be neccessary. As discussed, plans are vital, however sometimes variables occur which require new solutions and approaches. I would also like to include the idea of patience. While possibly a skill of its own, patience can be incorporated to an adaptable mindset. Sometimes things take time, and how you adapt and manage your mindset, through patience and adaptability, may determing success. 
     (University  of Denver)
 
 #### Hard Skills
@@ -233,7 +234,7 @@ Fig. 3 (Barenkamp, Rebstadt & Thomas, 2020)
 
 ##### Cloud and cloud security
 
-    Moving data and operating in the coud is becoming immensely popular with large companies as ease and scalabiltiy coupled with reduced cost of local infrastructure makes internet data access and cloud computing very desirbale (edX, 2024). Understanding the nuances of the cloud and security aspects is now and ever more so a neccessary skill for the developer (University of Denver). 
+    Moving data and operating in the coud is becoming immensely popular with large companies. Ease and scalabiltiy coupled with reduced cost of local infrastructure makes internet data access and cloud computing very desirbale (edX, 2024). Understanding the nuances of the cloud and security aspects is now and ever more so a neccessary skill for the developer (University of Denver). 
 
 #### Web Development
 
@@ -247,7 +248,7 @@ Fig. 3 (Barenkamp, Rebstadt & Thomas, 2020)
 
 #### UX/UI designer
 
-    Creates designs that are optimised for user interaction based on research, user testing and best practice princples. Ieally these designs are both visually exciting and pleasing as well as user friendly. 
+    Creates designs that are optimised for user interaction based on research, user testing and best practice principles. Ideally these designs are both visually exciting and pleasing as well as user friendly. 
 
 #### Software Architect
 
