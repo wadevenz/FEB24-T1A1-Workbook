@@ -12,24 +12,23 @@
 
 #### Packets
 
-    A packet is a compartmentalised section of data sent over a network, utilising a set of standards or protocols. By segmenting complete messages or data this way, enables more efficient transfers and some enhanced security. For example each packet can carry its own encryption, they are also able to take different pathways or routes to their final destination allowing them to travel the path of least resistence. 
-    Packets are divided into parts, a header, which contains information including that of the sender and the recipient, the main part of the packet, and in some cases a signature or aka, trailer or footer. (Yasar & Zola, 2022)
+    A packet is a compartmentalised section of data sent over a network, utilising a set of standards or protocols. By segmenting messages or data this way, it enables more efficient transfers through traffic avoidance. Packets are not constrained to single pathways but are able to split up and take different pathways or routes to their final destination allowing them to travel the path of least resistence. Packets are also able to contain their own encryption allowing for better security. 
+    Each packet is divided into parts, a header, which contains information including that of the sender and the recipient, the main part of the packet, and in some cases a signature or aka, trailer or footer. (Yasar & Zola, 2022)
 
 #### IP addresses (IPv4 and IPv6)
 
-    IP or 'Internet Protocol' are rules or standards mentioned above to facilitate transfer of packets over a network. IP addresses are  unique identifiers for each device. 
-    The initial version of IP addresses or 'v4' was 32-bit addresses utilising a series of numbers and decimals. However that finite sequence of numbers has been outgrown with the vast popularity and widespread use of the internet over an ever growing number of devices. Therefore a larger library IP addresses is required, enter IPv6. Using a 128-bit address, integers and letters, the pool of possible unique addresses exponentially rises. Ipv6 also comes along with with some other features, such as embedded security, larger packet header, ability to send packets to multiple locations in one operation, and potentially faster speeds due to eliminating the need for NAT or Network Address Translation (Duò, 2023).
+    IP or 'Internet Protocol' is the rules or standards mentioned above to facilitate transfer of packets over a network. IP addresses are essentially unique identifiers for each device. The initial version of IP addresses or 'v4' was 32-bit addresses utilising a series of numbers and decimals. However that finite sequence of numbers has been outgrown with the vast popularity and widespread use of the internet over an ever growing number of devices (Duò, 2023). Therefore a larger library of IP addresses is required, enter IPv6. Using a 128-bit address, integers and letters are used to increase the pool of possible unique addresses on an exponential scale. Ipv6 also comes along with with some other features, such as embedded security, larger packet header, ability to send packets to multiple locations in one operation, and potentially faster speeds due to eliminating the need for NAT or Network Address Translation (Duò, 2023).
 
 #### Routers and Routing
 
-    For data or information to be sent or retrieved over a network, an appropriate path must be selected, that path is called its route. A router is essentially a bit of hardware connected to the network that decides the route that data packets will take to reach its destination (Cloudfare, 2024). 
+    For data or information to be sent or retrieved over a network, an appropriate path must be selected, that path is called its route. A router is essentially a type of hardware connected to the network that decides the route that data packets will take to reach its destination (Cloudfare, 2024). 
     When a router receives a data packet it will read its associated address and unique information to identify where the data needs to go. It will then utilise data it has for best pathways to take and send the data the most efficient route, this is called 'routing'(Fig. 1). When a pathway in a network has been set up by an admin and doesnt change, this is called 'static routing', however as networks grow, so does the amount of data being sent. Dynamic changes can be required to prevent blockages and delays, which can make 'dynamic routing' far more desirable.(AWS, 2024)
 ![Routing](routing.png ("Fig. 1"))
 Fig. 1 (Cloudfare, 2024)
 
 #### Domains and DNS
 
-    Each and every accessible area on the internet needs identification or a website address, this is where Domain names or 'Domains' become useful. Generally organised into three main parts or levels (Singh, 2021), they help identify unique web addresses and seperate them from others. 
+    Each and every accessible area on the internet needs identification or a website address, this is where Domain names or 'Domains' become useful. Generally organised into three main sections or levels (Singh, 2021), they help identify unique web addresses and seperate them from others. 
 
     These domains are collated into directories or systems which is called the DNS or 'Domain Name System'. As Domain names are more easily understood and memorised than IPs or long lists of numbers, the DNS matches a Domain to an IP address so humans and computers can communicate more efficiently together. The DNS is essentially the internets infrastructure and therefore vital for its usability. (Singh, 2021)
 
@@ -37,17 +36,13 @@ Fig. 1 (Cloudfare, 2024)
 
 #### TCP
 
-    Data transmission is made possible by breaking down data into manageble pieces called 'packets' and sent to a target using an 'IP' as an address. While this may result in successful data transmission, the packets may not arrive in the correct order, and may appear meaningless. Essentially TCP or Transmission Control Protocol, works over IP to solve this problem(Khan Academy). It keeps communication open between the source and the target so that when data has been transmitted it can arrange the data in the correct way so that is useful to the recipient. Communication is kept open via what is referred to as a "three-way handshake" as shown in Fig.2. Simply the source computer sends a 'SYN' or syncronisation, which is returned by the target with an 'ACK' or acknowledgemnt. The acknowledgement is then returned back from the soource computer, and actual data is transferred from the source being constantly acknowledged from recipient. The TCP then utilises the information embedded in packets, to then organise and deliever to the target as intended. 
-![Three Way Handshake](tcp-handshake-diagram.png (Fig.2)) 
+    Data transmission is made possible by breaking down data into manageble pieces called 'packets' and sent to a target using an 'IP' address. While this may result in successful data transmission, the packets may not arrive in the correct order, and may appear meaningless. Essentially TCP or Transmission Control Protocol, works over IP to solve this problem (Khan Academy). It keeps communication open between the source and the target so that when data has been transmitted it can arrange the data in the correct way so that is useful to the recipient. Communication is kept open via what is referred to as a "three-way handshake" as shown in Fig.2. Simply the source computer sends a 'SYN' or syncronisation, which is returned by the target with an 'ACK' or acknowledgemnt. The acknowledgement is then returned back from the source computer, and actual data is transferred from the source being constantly acknowledged from recipient. The TCP then utilises the information embedded in packets, to then organise and deliver to the target as intended (Cloudfare, 2024). 
+![Three Way Handshake](tcp-handshake-diagram.png (Fig.2))
 Fig. 2 (Cloudfare, 2024)
-
-        https://www.cloudflare.com/en-gb/learning/ddos/glossary/tcp-ip/ - (Cloudfare, 2024)
-
-    https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet/xcae6f4a7ff015e7d:transporting-packets/a/transmission-control-protocol--tcp
 
 #### HTTP & HTTPS
 
-        HTTP stands for Hypertext Transfer Protocol and was the pioneering technology for communication over the internet. As the name protocol would suggest, it refers to the guidelines for sending and receiving data from a web server. When a user accesses a browser, HTTP sends a request to the web server, which then responds, enabling data transfer (AWS, 2024). However this data is in plaintext and is not secure from external parties, therefore a more secure method was devised, HTTPS or HTTP Secure. Rather than plaintext, data over HTTPS in encrypted. For communication from the browser and the server to occur, an SSL certificate (Vocell, 2022) must be issued and security keys are traded to encrypt the data and increasing security. 
+        HTTP stands for Hypertext Transfer Protocol and was the pioneering technology for communication over the internet. As the name protocol would suggest, it refers to the guidelines for sending and receiving data from a web server. When a user accesses a browser, HTTP sends a request to the web server, which then responds, enabling data transfer (AWS, 2024). However this data is in plaintext and is not secure from external parties, therefore a more secure method was devised, HTTPS or HTTP Secure. Rather than plaintext, data over HTTPS in encrypted. For communication from the browser and the server to occur, an SSL certificate (Vocell, 2022) must be issued and security keys are traded to encrypt the data and increase security. 
         On top of security as an advantage to HTTPS, increased authority and performance are also benefits. Also due to HTTPS being more trusted, search engine results are optimised making secure sites a priority. 
 
 #### Web Browsers
@@ -56,11 +51,11 @@ Fig. 2 (Cloudfare, 2024)
 
 ### **_Question 4: Describe the features of interpreters and compilers and how they are different._**
 
-    Source code written in high level programming languages makes it easier for a programmer to use and understand, however computers operate in binary or a low level language, therefore code needs to be converted for programs to be executed.
+    Source code written in high level programming languages makes it easier for a programmer to use and understand, however computers operate in binary or a low level language, therefore code needs to be converted for programs to be executed (baeldung, 2024)
 
-    Compilers convert source code to machine or (object) code before executing a program. The language only need to be compiled once, which is slower to initially analyse, however more efficient to run as the language has already been converted to machine code and doesn't need to persistently put load on the server. 
+    Compilers convert source code to machine or (object) code before executing a program. The language only need to be compiled once, which is slower to initially analyse, however more efficient to run as the language has already been converted to machine code and doesn't need to persistently put load on the server (Sassi, 202). 
 
-    Interpreters act a bit differntly as they directly convert and execute source code during program runttime. There is minimal initial analysis delay, however the program does run slower as the language is being converted at each line. 
+    Interpreters act a bit differently as they directly read and execute source code during program runttime, then convert to macine code for output (baeldung, 2024). However interpreters do run slower as the language is being converted at each line and it has to acces the RAM for interpretation, in comparison to compilers which only convert the language once (baedung, 2024).
 
     Compilers will identify errors and bugs as the code is compiled, and errors are required to be fixed prior to compilation being completed. 
 
@@ -68,21 +63,16 @@ Fig. 2 (Cloudfare, 2024)
 
     Finally, programming languages can contain both functions as compiled languages contain interpreter implementations and interpreters dont nullify the need for compilers. The merging features of compilers and interpreters can be seen in languages such as Javascript which will be described below. 
 
-<https://builtin.com/software-engineering-perspectives/compiler-vs-interpreter> - (Sassi, 2023)
-<https://www.baeldung.com/cs/compiled-vs-interpreted-languages> (baeldung, 2024)
-
 ### **_Question 5: Identify TWO commonly used programming languages and explain the benefits and drawbacks of each._**
 
 #### Javascript
 
     As of last year, Javascript was the most popular programming language (Logan, 2023). Javascript historically has been known as an interpreted language that over time developed methods to operate with the benefits of compilers. JIT or Just in Time compilation, which essentially converts source code into machine code at point of execution, will only convert that code necessary for function. This reduces the load and increases speed and efficiency. (FreeCodeCamp, 2020). Javascripts popularity can also be attributed to its wide versatilty and access to numerous libraries and environments such as React and Angular. These create widespread platform accessibilty and use, both front and back end (Neville, 2023). 
-    Although Javascript does have sercurity protocols and redundancies built-in, especially into the compatible frameworks, the client side nature of Javascript makes it vulnerable to implanted malicious code, and if not used properly a user can be exposed to leaks of sensitive data. Also it is necessary to run multiple tests on multiple different browsers as Javascript does not always run consistently across browsers. Also compared to compiled languages, Javascript can lower on speed and also debugging efficiency as the tools used are not advanced as some other languages. Overall however Javascript is a powerful high level language that is widely used and has enabled a vast majority of browsers and apps that are used today (Neville, 2023).
+    Although Javascript does have sercurity protocols and redundancies built-in, especially into the compatible frameworks, the client side nature of Javascript makes it vulnerable to implanted malicious code, and if not used properly a user can be exposed to leaks of sensitive data. Also it is necessary to run multiple tests in different environments, as Javascript does not always run consistently across all browsers (Neville, 2023). Also compared to compiled languages, Javascript can lower on speed and also debugging efficiency as the tools used are not advanced as some other languages. Overall however Javascript is a powerful high level language that is widely used and has enabled a vast majority of browsers and apps that are used today (Neville, 2023).
 
 #### Python
 
-    Taking the second most popular language spot was Python (Logan, 2023). The high level nature of this language (closely resembling written English), makes it an easy introduction to programming and enables programmers fast learning with a wide support network. Its uses are expansive, like Javascript, it has access to many libraries such as Flask, which enable the ability to build apps and web pages. The code is also adaptable and embeddable, meaning it works well wiht other coding languages and databases such as SQL (Gavrilova, 2023). However as Python is an interpreted language it does come at the cost of slower processing speeds than its compiled counterparts. Also with the increased flexiblity of Python can come increased drawbacks. Like Javascript, Pythons popularity leaves it vulnerable to malicious attack if not used properly, and although it has in built security features, its code analysis at runtime can leave malicious code into program at a late stage. This also leads into some debugging issues especially at high density projects. The versatility and high level of the Python language can also lead to frustrating type errors that would be identified earlier in other languages, increasing debugging time and slowing down development (Gavrilova, 2023). Overall however, it would seem that Pythons broad access and ease of its use combined with its wide capabilities overcome its limitations and contribute to its massive popularity. 
-
-#### Conclusion
+    Taking the second most popular language spot was Python (Logan, 2023). The high level nature of this language (closely resembling written English), makes it an easy introduction to programming and enables programmers fast learning with a wide support network. Its uses are expansive, like Javascript, it has access to many libraries such as Flask, which enable the ability to build apps and web pages. The code is also adaptable and embeddable, meaning it works well wiht other coding languages and databases and tools such as SQL (Gavrilova, 2023). However as Python is an interpreted language it does come at the cost of slower processing speeds than its compiled counterparts. Also with the increased flexiblity of Python can come increased drawbacks. Like Javascript, Pythons popularity leaves it vulnerable to malicious attack if not used properly, and although it has in built security features, like Javascript can be vulnerable if not used properly. Python also can have debugging issues especially at high density projects (Gavrilova, 2023). The versatility and high level of the Python language can also lead to frustrating type errors that would be identified earlier in other languages, increasing debugging time and slowing down development (Gavrilova, 2023). Overall however, it would seem that Pythons broad access and ease of its use combined with its wide capabilities overcome its limitations and contribute to its massive popularity. 
 
     The languages above share a lot of similarities as they are both popular, dynamically typed, high level languages. They share widespread use in a vast amount of browser and applications. And while they share a number of aspects, the frameworks and environments they associate with lend each language to be utilised in different ways. Javascripts frameworks enable a lot of visual components and aspects leaning to its expansive front end application, where python languages functionailty and use will see it moreso applied in the back end.  
 
@@ -112,7 +102,7 @@ I'm Wade, thanks for reaching out to the Super Awesome Development Company for a
 
 From what I understand, you have three objectives:  
     1. Create a website that attracts prospective visitors of all ages by displaying some of your interesting exhibits in a formate that generates interest and is easy to navigate  
-    2. Help prospetive visitors easily find their way to your museum with simple instructions, a map and important information (opening times, public transport, parking, etc.)  
+    2. Help prospective visitors easily find their way to your museum with simple instructions, a map and important information (opening times, public transport, parking, etc.)  
     3. Make it easy to contact the museum via multiple methods.
 
 Did I miss anything?
@@ -126,7 +116,7 @@ The pages I think would suit include:
 
 How does this sound? We can deploy the site as per your preference — I tend to use GitHub pages.
 
-If you're happy to proceed, let's set up a meeting to discuss the functionality I've discussed. I'll be able to provide you with a quote and timeline for you to review.
+If you're happy to proceed, let's set up a meeting to discuss the functionality I've outlined. I'll be able to provide you with a quote and timeline for you to review.
 
 Looking forward to hearing from you,
 
@@ -138,21 +128,21 @@ Dev, SADC
 **Description**  
 As my journey in software development is new and extremely brief, I have very minimal experiences to reflect upon. However having recently completed a Portfolio website, I have fresh insight into a specific project. The project was to create a simple Portfolio website to present myself in a professional manner, giving a target audience a brief insight into my personality and professional aspirations.
 
-Eager to get started, I began wireframing the site in Figma without carefully thinking about what I was trying to achieve, the content that I wanted to present, or the best functionality to complement each page. Once I'd hastily mocked up a nice looking site, I started building. It was only at this point that I realised that I hadn't spent enough time thinking things through and now I would need to start over. I'm going to use the ERA Reflective cycle to reflect on this situation in more detail.
+Eager to get started, I began wireframing the site in Figma without carefully thinking about what I was trying to achieve, the content that I wanted to present, or the best functionality to complement each page. Once I'd hastily mocked up a nice looking site, I started building. It was only at this point that I realised that I hadn't spent enough time thinking things through and would need to backtrack. I'm going to use the ERA Reflective cycle to reflect on this situation in more detail.
 
 **Experience**  
 This situation happened a couple of weeks into my first ever software project. Overall, building the site was a really positive experience, but I really learned a lot in this particular part of the project.
 
-Because I'd never built a portfolio website before, I had researched other professional portfolios in order to gain insight into what I thought would look good and serve me well once I graduated from Coder Academy. This process also helped me to determine what I didn't like. However, it also resulted in a Frankenstein planning process, where I simply gained inspiration from others, rather than properly thinking through what would truly work for me.
+Because I'd never built a portfolio website before (or any website for that matter), I had researched other professional portfolios in order to gain insight into what I thought would look good and serve me well once I graduated from Coder Academy. This process also helped me to determine what I didn't like. However, it also resulted in a Frankenstein planning process, where I simply gained inspiration from others, rather than properly thinking through what would truly work for me.
 
-Unfortunately it wasn't until I was deep into the development part of the process where I realised that this approach wasn't the best, and that I would need to backtrack in order to build the best site for my future career.
+Unfortunately it wasn't until I was deep into the development part of the process where I realised that this approach wasn't the best, and that I would need to retrace some steps in order to build the best site for my future career.
 
 **Reflection**  
 In the initial stages I felt very eager to get started with code. Most likely due to anxiety over time limitations and the sense of scale I had created in my mind over the project. I admit I had felt overwhelmed and therefore did not spend enough time in the planning phases. I believe I underestimated the function of processes such as sitemaps and wireframes and there role in a completed website.
 
-Once I reached the point where I had to start again, I felt deflated. I had built a number of 'complex' functionalities (well at least for beginner me), including a blog post carousel and a burger menu for mobile, and I realised they weren't the best solutions for my site. Incomplete planning and changes to the design also caused me to feel a lot of indecision and confusion in later parts of the project.
+Once I reached the point where I had to start again, I felt deflated. I had built a number of 'complex' functionalities (well at least for beginner me), including a blog post carousel and a burger menu for mobile, and I realised they weren't the best solutions for my site. Incomplete planning and changes to the design also caused me to feel a lot of indecision and confusion in later parts of the project. Part of the indecison also came from me wanting to ascertain as much skill and knowledge, but also create a realistic and quality product within my relatively small skillset. 
 
-Once I decided to stop coding, and take some time to plan, I started to feel a lot more clarity about the project. I replaced the 'rubber duck' with my wife who helped me to understand my priorities and then create a solution that worked towards these goals.
+Once I decided to stop coding, and take some time to plan, I started to feel a lot more clarity about the project. I replaced the 'rubber duck' with my wife who helped me to understand my priorities and then created a solution that worked towards these goals.
 
 **Action**  
 It's well known that good planning prevents poor outcomes, and this has certainly been the case for me!
@@ -171,26 +161,26 @@ On top of this, a frequent review and update of processes utilising tools such a
 
 ### **_Question 8: A large part of career growth as an information technology professional happens through networking and workshops, often found at online or in-person events or workshops.<br/> <br/> Create an action plan that identifies several relevant networking opportunities for you to participate in or attend, and add some information about what you expect to gain or grow through each item in the action plan._**
 
-    Within the following events or opportunitues is a brief description and expected outcomes and goals for each. The list encompasses a plan of action for present and future networking in pursuing a career in IT.
+Within the following events or opportunitues is a brief description and expected outcomes and goals for each. The list encompasses a plan of action for present and future networking in pursuing a career in IT. It is understood that real engagement and effort is required for each of these, as networking is far more likely to occur to the proactive than the reactive. 
 
     1. Attend The Design Conference (June 2024) - This conference is attended by Australia's best design teams, both in-house and agency side. I hope to gain a deeper understanding of the design world, and exactly what design teams need from good developers and how we can work synergistically together. In my experience the best developers work hand-in-hand with design teams to create websites, apps and programs that are not only functional but have an additional focus on the user experience and design of the product as well.  The Design Conference also has a specific focus on creating networking opportunities, and I plan on making the most of them. Ideally, I will meet my future employer, or someone who can introduce me to them.
 
-    2. Join a hackathon (or mini hackethon)(July, 2024) - Hackathons are designed for community engagement to spark innovation and creativity for people with similar interests and aspirations. Working together with people on a software project towards achieving solutions and often solving real world issues is a great way to both meet and engage with a multitude of people from the industry all the while gaining invaluable experience and knowledge. These events can happen in person, or online. Advertisements for these can come via sites like [Hackathons Australia](https://www.hackathonsaustralia.com/) or [Hackathons](https://www.hackathons.com.au/.com) which display global events. While already passed, a mini hackathon like the one put on by [IXDA](https://events.humanitix.com/ixda-brisbane-mini-hackathon-march-2024) would be a great event to be on the lookout for recurring.
+    2. Join a hackathon (or mini hackethon)(July, 2024) - Hackathons are designed for community engagement to spark innovation and creativity for people with similar interests and aspirations. Working together with people on a software project towards achieving solutions and often solving real world issues is a great way to both meet and engage with a multitude of people from the industry all the while gaining invaluable experience and knowledge. These events can happen in person, or online. Advertisements for these can come via sites like [Hackathons Australia](https://www.hackathonsaustralia.com/) or [Hackathons](https://www.hackathons.com.au/.com) which display global events. While already passed, a mini hackathon like the one put on by [IXDA](https://events.humanitix.com/ixda-brisbane-mini-hackathon-march-2024) would be a great event to be on the lookout for in the future.
 
-    3. Join or contribute to an open source project (July, 2024) - One of the ways it is said to learn to code is to... code. Once I feel ive gained a solid foundation of coding knowldege, with a timeframe set around end of second semester, My plan of action is to practically apply the skills learnt through real life contribution. Open Source projects allow real world application to everyone from beginners to advanced people to get a feel for and understand coding. My plan is to as soon as possible, find a suitable Open Source profect, for example utilising GitHub or peruse around Mozilla, and take a shot at contributing some code or experiencing some techniques utilised in the software development industry. By getting real hands on experience not only do I hope to engage with other developers of like mindedness I hope to advance my own skills and knowledge in preparing for employment. These projects are saturated full of knowledge and experience and people that are willing to share collaborate on ideas.
+    3. Join or contribute to an open source project (July, 2024) - One of the ways it is said to learn to code is to... code. Once I feel Ive gained a solid foundation of coding knowldege, with a timeframe set around end of second trimester, my plan of action is to practically apply the skills learnt through real life contribution. Open Source projects allow real world application to everyone from beginners to advanced, and I imagine help get a feel for and understand coding. My plan is to as soon as possible, find a suitable Open Source project, for example utilising GitHub or peruse around Mozilla, and take a shot at contributing some code or experiencing some techniques utilised in the software development industry. By getting real hands on experience not only do I hope to engage with other developers of like mindedness I hope to advance my own skills and knowledge in preparing for employment. These projects are saturated full of knowledge and experience and people that are willing to share collaborate on ideas.
 
-    4. Online networking/ skill development resources (Present- Ongoing) - [Just Digital People](https://www.justdigitalpeople.com.au/), [hackster.io](https://www.hackster.io/), These are a couple of the vast number of online resources developed for networking and engaging in the community of software development. As time goes on, it is becoming more apparent how much networking is necessary for gaining entry and traction in the industry. Community pages such as these are resources of people and experience to tap into.  My plan is to interact with these resources more and more as time goes on, and it is my expectation that through this I would gain valuable knowledge of the industry and also come into contact with people that will be able to guide me into paths of entry into porfessional software development and IT.
+    4. Online networking/ skill development resources (Present - Ongoing) - [Just Digital People](https://www.justdigitalpeople.com.au/), [hackster.io](https://www.hackster.io/), These are a couple of the vast number of online resources developed for networking and engaging in the community of software development. As time goes on, it is becoming more apparent how much networking is necessary for gaining entry and traction in the industry. Community pages such as these are resources of people and experience to tap into.  My plan is to interact with these resources more and more as time goes on, and it is my expectation that through this I would gain valuable knowledge of the industry and also come into contact with people that will be able to guide me into paths of entry into professional software development and IT.
 
     5. Meeting with industry professionals (Present - Ongoing) - Through immediate contacts with people I know who work in or adjacent to the tech or software industry, I have planned and continually hope to organise meetings and create ongoing relationships. Through these contacts I hope to gain valuable insight into skills and experience required to be employed in the field. The plan includes onging exposure to people and contacts that are in the fields I desire to be apart, and with knowledge gained, create avenues of employment and also advice how to achieve persisting development and upskilling. My expectation is that, through better rapport with known contacts I will be able to present more in depth questions and receive honest answers to further enhance my journey into the field.  
 
 ### **_Question 9: Explain the uses of language-learning model technologies (such as ChatGPT) on written and technical works, such as reports and software projects._**
 
-    Language-learning models (LLM) or Artificial Intelligence (AI) responsible for interpreting langauage (Gotay, 2024), in many respects is relatively new and still in its infancy. It would seem that while creativity and ingenuity are requried for software engineering and development, AI, at least for now will remain at the whims of the human mind. However, AI's uses in collating vast amounts of data, machine learning and pattern recognition give it the ability to perform complex or mundane routines very quickly and that can be of immense benefit (Barenkamp, Rebstadt & Thomas, 2020). Fig. 2 below shows the uses and applications of AI and language learning on the software development process. Specifically in the software development process tasks such as generating simple code, utilising huge computing power to calculate problems and ascertain mathematical solutions and utilising predcitive models to analyse and find code bugs and errors make it a compelling support to the programmer, and potentially one day replacing many tasks pushing to optimise human capability and capacity (IntellectSoft, 2023).
+    Language-learning models (LLM) or Artificial Intelligence (AI) responsible for interpreting langauage (Gotay, 2024), in many respects,  is relatively new and still in its infancy. It would seem that while creativity and ingenuity are requried for software engineering and development, AI, at least for now will remain at the whims of the human mind. However, AI's uses in collating vast amounts of data, machine learning and pattern recognition give it the ability to perform complex or large scale routines very quickly and that can be of immense benefit to the worker (Barenkamp, Rebstadt & Thomas, 2020). Fig. 3 below shows the uses and applications of AI and language learning on the software development process. Specifically in the software development process, tasks such as generating simple code, utilising huge computing power to calculate problems and ascertain mathematical solutions and utilising predcitive models to analyse and find code bugs and errors make it a compelling support to the programmer, and potentially one day replacing many tasks that creat a push to optimise human capability and capacity (intellectSoft, 2023).
 
-    Yet while the use of machine learning and AI to automate tasks from data colletction and coding, to compiling and integration is interesting, AI is not without its drawbacks. No doubt AI is the future of software development (Barenkamp, Rebstadt & Thomas, 2020), and those that leave it behind may be left behind, however it currently relies on human creativity and supervision. It also is not error proof and make mistakes, which acn lead to security and ethical issues which will be discussed below.
+    Yet while the use of machine learning and AI to automate tasks from data colletction and coding, to compiling and integration is interesting, AI is not without its drawbacks. No doubt AI is the future of software development (Barenkamp, Rebstadt & Thomas, 2020), and those that leave it behind may be left behind, however it currently relies on human creativity and supervision. It also is not error proof, which can and has led to security and ethical issues which will be discussed below.
 
 ![AI Application](AI_application.png)
-Fig. 2 (Barenkamp, Rebstadt & Thomas, 2020)
+Fig. 3 (Barenkamp, Rebstadt & Thomas, 2020)
 
 ### **_Question 10: Explain the legal and ethical impacts of the usage of language-learning model technologies (such as ChatGPT) in written and technical works, such as reports and software projects._**
 
@@ -275,67 +265,88 @@ Fig. 2 (Barenkamp, Rebstadt & Thomas, 2020)
 
 #### Question 1
 
-1 Britannica 2024, markup language, viewed April 2024, https://www.britannica.com/technology/markup-language
-2 Lenovo 2024, What is a markup language?, viewed April 2024, https://www.lenovo.com/au/outlet/en/glossary/markup-language/?orgRef=https%253A%252F%252Fwww.google.com%252F
+1 Britannica 2024, markup language, viewed April 2024, [https://www.britannica.com/technology/markup-language]
+
+2 Lenovo 2024, What is a markup language?, viewed April 2024, [https://www.lenovo.com/au/outlet/en/glossary/markup-language/?orgRef=https%253A%252F%252Fwww.google.com%252F]
 
 #### Question 2
 
-1 Yasar, K; Zola, A 2022, network packet, https://www.techtarget.com/searchnetworking/definition/packet
-2 <https://kinsta.com/blog/ipv4-vs-ipv6/>
-3 <https://www.cloudflare.com/en-gb/learning/network-layer/what-is-routing/>
+1 Yasar, K; Zola, A 2022, network packet, viewed April 2024, [https://www.techtarget.com/searchnetworking/definition/packet]
 
-  <https://cf-assets.www.cloudflare.com/slt3lc6tev37/5biqo5wm6nM8GSmiNyiAnl/b6b5c9befeda6ba99b4380d84953de18/routing-diagram.svg>
+2 Duò, M 2023, Ipv4 vs Ipv6: What's the Difference Between the Two Protocols?, viewed April 2024, [https://kinsta.com/blog/ipv4-vs-ipv6/]
 
-  <https://aws.amazon.com/what-is/routing/>
+3 Cloudfare 2024, What is routing? | IP routing, viewed April 2024, [https://www.cloudflare.com/en-gb/learning/network-layer/what-is-routing/]
+
+Fig 1, Routing Diagram, viewed April 2024, [https://cf-assets.www.cloudflare.com/slt3lc6tev37/5biqo5wm6nM8GSmiNyiAnl/b6b5c9befeda6ba99b4380d84953de18/routing-diagram.svg]
+
+AWS 2024, What is routing?, viewed April 2024, [https://aws.amazon.com/what-is/routing/]
   
-4 <https://www.okta.com/au/blog/2021/03/what-is-a-domain-name-system-dns/>
+4 Singh, A 2021, What is a Domain Name System (DNS)?, viewed April 2024, [https://www.okta.com/au/blog/2021/03/what-is-a-domain-name-system-dns/]
 
 #### Question 3
 
-1 <https://www.cloudflare.com/en-gb/learning/ddos/glossary/tcp-ip/> - (Cloudfare, 2024)
-2 <https://aws.amazon.com/compare/the-difference-between-https-and-http/>
-<https://blog.hubspot.com/marketing/what-is-ssl> (Vocell, 2022)
+1  Cloudfare 2024, What is TCP/IP?, viewed April 2024, [https://www.cloudflare.com/en-gb/learning/ddos/glossary/tcp-ip/]
 
-3 <https://www.techopedia.com/definition/288/web-browser>
+Fig.2, viewed April 2024, sourced from [https://www.cloudflare.com/en-gb/learning/ddos/glossary/tcp-ip/]
+
+Khan Academy, Transmission Control Protocol (TCP), viewed April 2024, [https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet/xcae6f4a7ff015e7d:transporting-packets/a/transmission-control-protocol--tcp]
+
+2 AWS 2024, What's the Difference Between HTTP and HTTPS?, viewd Aprl 2024, [https://aws.amazon.com/compare/the-difference-between-https-and-http/]
+
+Vocell, J 2022, A Beginner's Guide to SSL: What It is & Why It Makes Your Website More Secure, viewed April 2024, [https://blog.hubspot.com/marketing/what-is-ssl]
+
+3 Rouse, M 2023, Web Browser, viewed April 2024, [https://www.techopedia.com/definition/288/web-browser]
 
 #### Question 4
 
-<https://builtin.com/software-engineering-perspectives/compiler-vs-interpreter>
+Sassi, RB 2023, Compiler vs. Interpreter in Programming, viewed April 2024, [https://builtin.com/software-engineering-perspectives/compiler-vs-interpreter]
+
+baeldung; Albin, M 2024, Compiled vs Interpreted: Programming Languages, viewed April 2024, [https://www.baeldung.com/cs/compiled-vs-interpreted-languages]
 
 #### Question 5
 
-https://www.freecodecamp.org/news/just-in-time-compilation-explained/
- <https://www.devjobsscanner.com/blog/top-8-most-demanded-programming-languages/> (Logan, 2023)
-1 <https://softjourn.com/insights/the-advantages-and-disadvantages-of-javascript> - (Neville, 2023)
-2 <https://serokell.io/blog/python-pros-and-cons>
+ Logan,d 2023, Top 8 Most Demanded Programming Languages in 2023, viewed April 2024, [https://www.devjobsscanner.com/blog/top-8-most-demanded-programming-languages/]
+
+freeCodeCamp 2020, Just in Time Compilation Explained, viewed April 2024, [https://www.freecodecamp.org/news/just-in-time-compilation-explained/]
+
+Neville, M 2023, The Advantages and Disadvantages of Javascript, viewed April 2024, [https://softjourn.com/insights/the-advantages-and-disadvantages-of-javascript]
+
+Gavrilova, Y 2023, Pros and Cons of Python Programming Language, viewed April 2024, [https://serokell.io/blog/python-pros-and-cons]
 
 #### Question 9
 
-<https://link.springer.com/article/10.1186/s42467-020-00005-4>
-<https://elearningindustry.com/successful-leadership-practices-in-the-era-of-ai-as-a-learning-technology-strategist>
-<https://www.intellectsoft.net/blog/benefits-and-perspectives-of-artificial-intelligence-in-software-development/>
+Barenkamp, M; Rebstadt, J & Thomas, O 2020, Applications of AI in classical software engineering, viewed April 2024 [https://link.springer.com/article/10.1186/s42467-020-00005-4]
+
+Fig. 3, viewed April 2024, sourced from [https://www.cloudflare.com/en-gb/learning/ddos/glossary/tcp-ip/]
+
+Dr Attri, RK 2023, Successful Leadership Practices in the Era of AI as a Learning technology Strategist, viewed April 2024, [https://elearningindustry.com] successful-leadership-practices-in-the-era-of-ai-as-a-learning-technology-strategist
+
+intellectsoft 2023, Benefits and Perspectives of Artificial Intelligence in Software Development, viewed April 2024, [https://www.intellectsoft.net/blog/benefits-and-perspectives-of-artificial-intelligence-in-software-development/]
 
 #### Question 10
 
-<https://www.walkme.com/blog/ai-legal-issues/#:~:text=Examples%20of%20AI%20legal%20issues,Large%20fines>.
-<https://jidc.org/index.php/journal/article/view/37824352/3172>
-<https://www.sciencedirect.com/science/article/pii/S2666659620300056>
-<https://remotebase.com/blog/chat-gpt-for-software-development-and-its-ethical-concerns-1>
+Ovington, T 2023, 7 AI legal issues and how to deal with them, viewed April 2024, [https://www.walkme.com/blog/ai-legal-issues/#:~:text=Examples%20of%20AI%20legal%20issues,Large%20fines]
+
+Guleria, A; Krishan, K; Sharma, V & Kanchan, T 2023, ChatGPT: ethical concerns and challenges in academics and research, viewed April 2024,  [https://jidc.org/index.php/journal/article/view/37824352/3172J]; Infect Dev Ctries 2023; 17(9):1292-1299. doi:10.3855/jidc.18738
+
+Rodrigues, R 2020, Legal and human rights issues of AI: Gaps, challenges and vulnerabilities, viewed Aprl 2024,[https://www.sciencedirect.com/science/article/pii/S2666659620300056:]
+
+Khurram, M 2023, ChatGPT for Software Development and its Ethical Concerns, viewed April 2024, [https://remotebase.com/blog/chat-gpt-for-software-development-and-its-ethical-concerns-1]
 
 #### Question 11
 
-https://www.linkedin.com/pulse/top-hard-skills-land-job-software-developer-careerscale
+LinkedIn 2023, Top Hard Skills to Land a JOb as a Software Developer, viewed April 2024, [https://www.linkedin.com/pulse/top-hard-skills-land-job-software-developer-careerscale]
 
-https://www.edx.org/learn/cloud-computing?_gl=1*vjud1v*_ga*MTg2MTY0MzQ0LjE3MTM0MTQ3NzU.*_ga_D3KS4KMDT0*MTcxMzQxNDc3NS4xLjEuMTcxMzQxNTU0MC4yNC4wLjA. 
+edX 2024, What is cloud computing?, viewed April 2024, [https://www.edx.org/learn/cloud-computing?_gl=1*vjud1v*_ga*MTg2MTY0MzQ0LjE3MTM0MTQ3NzU.*_ga_D3KS4KMDT0*MTcxMzQxNDc3NS4xLjEuMTcxMzQxNTU0MC4yNC4wLjA.]
 
-University of Denver, 18 Skills all programmers need to have, (https://bootcamp.du.edu/blog/programming-skills/) (Visited 18 Apr, 2024)
+University of Denver, 18 Skills all programmers need to have, Coding, viewed 18 April 2024 [https://bootcamp.du.edu/blog/programming-skills/]
 
 #### Question 12
 
-https://www.indeed.com/career-advice/careers/what-does-a-software-architect-do#:~:text=Software%20architects%20identify%20and%20determine,of%20the%20software%20development%20team.
+Motiso, D 2023, What does a Software Architect Do? (Duties and Requirements), viewed April 2024, [https://www.indeed.com/career-advice/careers/what-does-a-software-architect-do#:~:text=Software%20architects%20identify%20and%20determine,of%20the%20software%20development%20team.]
 
-https://www.computerscience.org/careers/software-developer/#:~:text=Software%20developers%20write%20code%20using,updates%2C%20and%20upgrades%20as%20needed.
+Sartore, M; Kenebrew, D 2024, Software eveloper Career Overview, viewed April 2024, [https://www.computerscience.org/careers/software-developer/#:~:text=Software%20developers%20write%20code%20using,updates%2C%20and%20upgrades%20as%20needed.]
 
-https://www.coursera.org/articles/devops-engineer
+Staff, Coursera 2024, What Does a DevOps Engineer Do? A Career Guide, viewwed April 2024, [https://www.coursera.org/articles/devops-engineer]
 
 Wade Venz, 15494
